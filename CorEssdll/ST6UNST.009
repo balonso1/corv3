@@ -1,0 +1,110 @@
+ %% NO MODIFIQUE NI ELIMINE ESTE ARCHIVO. %% 
+ %% Este archivo contiene información acerca de la instalación de una aplicación. %% 
+ %% Se utilizará para quitar automáticamente de su PC todos los componentes de la aplicación, si elige hacerlo. %% 
+
+
+NOTE: Inicio de la sección bootstrapper
+
+CONFIG: Title: "Setup de instalacion Cor ESS Version 3"
+
+ACTION: RegKey: "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion", "SharedDLLs"
+
+ACTION: SystemFile: "C:\WINDOWS\SYSTEM32\VB6STKIT.DLL"
+(El archivo en disco ya estaba actualizado)
+
+ACTION: SystemFile: "C:\WINDOWS\SYSTEM32\COMCAT.DLL"
+(El archivo en disco ya estaba actualizado)
+
+ACTION: SystemFile: "C:\WINDOWS\SYSTEM32\STDOLE2.TLB"
+(El archivo en disco ya estaba actualizado)
+
+ACTION: SystemFile: "C:\WINDOWS\SYSTEM32\ASYCFILT.DLL"
+(El archivo en disco ya estaba actualizado)
+
+ACTION: SystemFile: "C:\WINDOWS\SYSTEM32\OLEPRO32.DLL"
+(El archivo en disco ya estaba actualizado)
+
+ACTION: SystemFile: "C:\WINDOWS\SYSTEM32\OLEAUT32.DLL"
+(El archivo en disco ya estaba actualizado)
+
+ACTION: SystemFile: "C:\WINDOWS\SYSTEM32\MSVBVM60.DLL"
+(El archivo en disco ya estaba actualizado)
+
+ACTION: DllSelfRegister: "C:\WINDOWS\SYSTEM32\COMCAT.DLL"
+
+ACTION: TLBRegister: "C:\WINDOWS\SYSTEM32\STDOLE2.TLB"
+
+ACTION: DllSelfRegister: "C:\WINDOWS\SYSTEM32\OLEPRO32.DLL"
+
+ACTION: DllSelfRegister: "C:\WINDOWS\SYSTEM32\OLEAUT32.DLL"
+
+ACTION: DllSelfRegister: "C:\WINDOWS\SYSTEM32\MSVBVM60.DLL"
+
+NOTE: Final de la sección bootstrapper
+
+NOTE: Inicializando el programa principal de instalación 'Setup1.exe'....
+
+ACTION: PrivateFile: "C:\Inetpub\wwwroot\corv3\CorEssdll\CorWebServerV3.dll"
+(No se puede encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: PrivateFile: "C:\Inetpub\wwwroot\corv3\CorEssdll\CorSecurityTCDC.dll"
+(El archivo en disco ya estaba actualizado)
+
+ACTION: PrivateFile: "C:\Inetpub\wwwroot\corv3\CorEssdll\CorGeneratorEXLR3.dll"
+(No se puede encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: PrivateFile: "C:\Inetpub\wwwroot\corv3\CorEssdll\ControlaMulti.dll"
+(No se puede encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: PrivateFile: "C:\Inetpub\wwwroot\corv3\CorEssdll\ControlarAplicacion.dll"
+(El archivo en disco ya estaba actualizado)
+
+ACTION: PrivateFile: "C:\Inetpub\wwwroot\corv3\CorEssdll\CorGeneratorComp.dll"
+(El archivo en disco ya estaba actualizado)
+
+ACTION: PrivateFile: "C:\Inetpub\wwwroot\corv3\CorEssdll\CorScr.dll"
+(El archivo en disco ya estaba actualizado)
+
+ACTION: PrivateFile: "C:\Inetpub\wwwroot\corv3\CorEssdll\ErrorHandler.dll"
+(El archivo en disco ya estaba actualizado)
+
+ACTION: PrivateFile: "C:\Inetpub\wwwroot\corv3\CorEssdll\CorEncriptadorEx.dll"
+(El archivo en disco ya estaba actualizado)
+
+ACTION: PrivateFile: "C:\Inetpub\wwwroot\corv3\CorEssdll\CorRegistro.dll"
+(El archivo en disco ya estaba actualizado)
+
+ACTION: PrivateFile: "C:\Inetpub\wwwroot\corv3\CorEssdll\CorDataEncrypter.dll"
+(El archivo en disco ya estaba actualizado)
+
+ACTION: PrivateFile: "C:\Inetpub\wwwroot\corv3\CorEssdll\CorSetupv3.dll"
+(No se puede encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: DllSelfRegister: "C:\Inetpub\wwwroot\corv3\CorEssdll\CorWebServerV3.dll"
+
+ACTION: DllSelfRegister: "C:\Inetpub\wwwroot\corv3\CorEssdll\CorSecurityTCDC.dll"
+
+ACTION: DllSelfRegister: "C:\Inetpub\wwwroot\corv3\CorEssdll\CorGeneratorEXLR3.dll"
+
+ACTION: DllSelfRegister: "C:\Inetpub\wwwroot\corv3\CorEssdll\ControlaMulti.dll"
+
+ACTION: DllSelfRegister: "C:\Inetpub\wwwroot\corv3\CorEssdll\ControlarAplicacion.dll"
+
+ACTION: DllSelfRegister: "C:\Inetpub\wwwroot\corv3\CorEssdll\CorGeneratorComp.dll"
+
+ACTION: DllSelfRegister: "C:\Inetpub\wwwroot\corv3\CorEssdll\CorScr.dll"
+
+ACTION: DllSelfRegister: "C:\Inetpub\wwwroot\corv3\CorEssdll\ErrorHandler.dll"
+
+ACTION: DllSelfRegister: "C:\Inetpub\wwwroot\corv3\CorEssdll\CorEncriptadorEx.dll"
+
+ACTION: DllSelfRegister: "C:\Inetpub\wwwroot\corv3\CorEssdll\CorRegistro.dll"
+
+ACTION: DllSelfRegister: "C:\Inetpub\wwwroot\corv3\CorEssdll\CorDataEncrypter.dll"
+
+ACTION: DllSelfRegister: "C:\Inetpub\wwwroot\corv3\CorEssdll\CorSetupv3.dll"
+
+ACTION: RegKey: "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion", "App Paths\CorSetupv3.dll"
+
+ACTION: RegValue: "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\CorSetupv3.dll", ""
+

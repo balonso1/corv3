@@ -1,0 +1,185 @@
+ %% NO MODIFIQUE NI ELIMINE ESTE ARCHIVO. %% 
+ %% Este archivo contiene información acerca de la instalación de una aplicación. %% 
+ %% Se utilizará para quitar automáticamente de su PC todos los componentes de la aplicación, si elige hacerlo. %% 
+
+
+NOTE: Inicio de la sección bootstrapper
+
+CONFIG: Title: "Cor E-Solution Suite 2.8.6 - Ext Log"
+
+ACTION: RegKey: "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion", "SharedDLLs"
+
+ACTION: SystemFile: "C:\WINDOWS\SYSTEM32\VB6STKIT.DLL"
+(El archivo en disco ya estaba actualizado)
+
+ACTION: SystemFile: "C:\WINDOWS\SYSTEM32\COMCAT.DLL"
+(El archivo en disco ya estaba actualizado)
+
+ACTION: SystemFile: "C:\WINDOWS\SYSTEM32\STDOLE2.TLB"
+(El archivo en disco ya estaba actualizado)
+
+ACTION: SystemFile: "C:\WINDOWS\SYSTEM32\ASYCFILT.DLL"
+(El archivo en disco ya estaba actualizado)
+
+ACTION: SystemFile: "C:\WINDOWS\SYSTEM32\OLEPRO32.DLL"
+(El archivo en disco ya estaba actualizado)
+
+ACTION: SystemFile: "C:\WINDOWS\SYSTEM32\OLEAUT32.DLL"
+(El archivo en disco ya estaba actualizado)
+
+ACTION: SystemFile: "C:\WINDOWS\SYSTEM32\MSVBVM60.DLL"
+(El archivo en disco ya estaba actualizado)
+
+ACTION: DllSelfRegister: "C:\WINDOWS\SYSTEM32\COMCAT.DLL"
+
+ACTION: TLBRegister: "C:\WINDOWS\SYSTEM32\STDOLE2.TLB"
+
+ACTION: DllSelfRegister: "C:\WINDOWS\SYSTEM32\OLEPRO32.DLL"
+
+ACTION: DllSelfRegister: "C:\WINDOWS\SYSTEM32\OLEAUT32.DLL"
+
+ACTION: DllSelfRegister: "C:\WINDOWS\SYSTEM32\MSVBVM60.DLL"
+
+NOTE: Final de la sección bootstrapper
+
+NOTE: Inicializando el programa principal de instalación 'Setup1.exe'....
+
+ACTION: PrivateFile: "C:\Aplicaciones\CorEss28\CorEssdll\CorWebServerEXLR2.dll"
+(No se puede encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: PrivateFile: "C:\Aplicaciones\CorEss28\CorEssdll\CorFrontEXLR.dll"
+(No se puede encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: PrivateFile: "C:\Aplicaciones\CorEss28\CorEssdll\CorSecurityTCDC.dll"
+(No se puede encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: PrivateFile: "C:\Aplicaciones\CorEss28\CorEssdll\CorPrinterSP2.dll"
+(El archivo en disco ya estaba actualizado)
+
+ACTION: PrivateFile: "C:\Aplicaciones\CorEss28\CorEssdll\CorObjetosSPLR2.dll"
+(No se puede encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: PrivateFile: "C:\Aplicaciones\CorEss28\CorEssdll\CorGeneratorEXLR2.dll"
+(El archivo en disco ya estaba actualizado)
+
+ACTION: PrivateFile: "C:\Aplicaciones\CorEss28\CorEssdll\ControlarAplicacion.dll"
+(No se puede encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: PrivateFile: "C:\Aplicaciones\CorEss28\CorEssdll\CorObjetosSPLR.dll"
+(No se puede encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: PrivateFile: "C:\Aplicaciones\CorEss28\CorEssdll\CorLisObjSPLR.dll"
+(No se puede encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: PrivateFile: "C:\Aplicaciones\CorEss28\CorEssdll\CorGeneratorEXLR.dll"
+(No se puede encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: PrivateFile: "C:\Aplicaciones\CorEss28\CorEssdll\CorFlowEX.dll"
+(No se puede encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: PrivateFile: "C:\Aplicaciones\CorEss28\CorEssdll\CorWebServerEXLR.dll"
+(No se puede encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: PrivateFile: "C:\Aplicaciones\CorEss28\CorEssdll\CorLisConXPLR.dll"
+(No se puede encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: PrivateFile: "C:\Aplicaciones\CorEss28\CorEssdll\CorCopyEX.dll"
+(No se puede encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: PrivateFile: "C:\Aplicaciones\CorEss28\CorEssdll\CorWordEX.dll"
+(No se puede encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: PrivateFile: "C:\Aplicaciones\CorEss28\CorEssdll\CorOrganigramaMsLR.dll"
+(No se puede encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: PrivateFile: "C:\Aplicaciones\CorEss28\CorEssdll\CorFrontSPLR.dll"
+(No se puede encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: PrivateFile: "C:\Aplicaciones\CorEss28\CorEssdll\CorGeneratorComp.dll"
+(No se puede encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: PrivateFile: "C:\Aplicaciones\CorEss28\CorEssdll\CorScr.dll"
+(No se puede encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: PrivateFile: "C:\Aplicaciones\CorEss28\CorEssdll\ErrorHandler.dll"
+(No se puede encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: PrivateFile: "C:\Aplicaciones\CorEss28\CorEssdll\CorPrinterSP.dll"
+(No se puede encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: PrivateFile: "C:\Aplicaciones\CorEss28\CorEssdll\CorEncriptadorEx.dll"
+(No se puede encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: PrivateFile: "C:\Aplicaciones\CorEss28\CorEssdll\CorRtfParser.dll"
+(No se puede encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: PrivateFile: "C:\Aplicaciones\CorEss28\CorEssdll\CorPlanRep.dll"
+(No se puede encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: PrivateFile: "C:\Aplicaciones\CorEss28\CorEssdll\CorRegistro.dll"
+(No se puede encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: PrivateFile: "C:\Aplicaciones\CorEss28\CorEssdll\CorDataEncrypter.dll"
+(No se puede encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: PrivateFile: "C:\Aplicaciones\CorEss28\CorEssdll\CorSetup286.dll"
+(No se puede encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: DllSelfRegister: "C:\Aplicaciones\CorEss28\CorEssdll\CorWebServerEXLR2.dll"
+
+ACTION: DllSelfRegister: "C:\Aplicaciones\CorEss28\CorEssdll\CorFrontEXLR.dll"
+
+ACTION: DllSelfRegister: "C:\Aplicaciones\CorEss28\CorEssdll\CorSecurityTCDC.dll"
+
+ACTION: DllSelfRegister: "C:\Aplicaciones\CorEss28\CorEssdll\CorPrinterSP2.dll"
+
+ACTION: DllSelfRegister: "C:\Aplicaciones\CorEss28\CorEssdll\CorObjetosSPLR2.dll"
+
+ACTION: DllSelfRegister: "C:\Aplicaciones\CorEss28\CorEssdll\CorGeneratorEXLR2.dll"
+
+ACTION: DllSelfRegister: "C:\Aplicaciones\CorEss28\CorEssdll\ControlarAplicacion.dll"
+
+ACTION: DllSelfRegister: "C:\Aplicaciones\CorEss28\CorEssdll\CorObjetosSPLR.dll"
+
+ACTION: DllSelfRegister: "C:\Aplicaciones\CorEss28\CorEssdll\CorLisObjSPLR.dll"
+
+ACTION: DllSelfRegister: "C:\Aplicaciones\CorEss28\CorEssdll\CorGeneratorEXLR.dll"
+
+ACTION: DllSelfRegister: "C:\Aplicaciones\CorEss28\CorEssdll\CorFlowEX.dll"
+
+ACTION: DllSelfRegister: "C:\Aplicaciones\CorEss28\CorEssdll\CorWebServerEXLR.dll"
+
+ACTION: DllSelfRegister: "C:\Aplicaciones\CorEss28\CorEssdll\CorLisConXPLR.dll"
+
+ACTION: DllSelfRegister: "C:\Aplicaciones\CorEss28\CorEssdll\CorCopyEX.dll"
+
+ACTION: DllSelfRegister: "C:\Aplicaciones\CorEss28\CorEssdll\CorWordEX.dll"
+
+ACTION: DllSelfRegister: "C:\Aplicaciones\CorEss28\CorEssdll\CorOrganigramaMsLR.dll"
+
+ACTION: DllSelfRegister: "C:\Aplicaciones\CorEss28\CorEssdll\CorFrontSPLR.dll"
+
+ACTION: DllSelfRegister: "C:\Aplicaciones\CorEss28\CorEssdll\CorGeneratorComp.dll"
+
+ACTION: DllSelfRegister: "C:\Aplicaciones\CorEss28\CorEssdll\CorScr.dll"
+
+ACTION: DllSelfRegister: "C:\Aplicaciones\CorEss28\CorEssdll\ErrorHandler.dll"
+
+ACTION: DllSelfRegister: "C:\Aplicaciones\CorEss28\CorEssdll\CorPrinterSP.dll"
+
+ACTION: DllSelfRegister: "C:\Aplicaciones\CorEss28\CorEssdll\CorEncriptadorEx.dll"
+
+ACTION: DllSelfRegister: "C:\Aplicaciones\CorEss28\CorEssdll\CorRtfParser.dll"
+
+ACTION: DllSelfRegister: "C:\Aplicaciones\CorEss28\CorEssdll\CorPlanRep.dll"
+
+ACTION: DllSelfRegister: "C:\Aplicaciones\CorEss28\CorEssdll\CorRegistro.dll"
+
+ACTION: DllSelfRegister: "C:\Aplicaciones\CorEss28\CorEssdll\CorDataEncrypter.dll"
+
+ACTION: DllSelfRegister: "C:\Aplicaciones\CorEss28\CorEssdll\CorSetup286.dll"
+
+ACTION: RegKey: "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion", "App Paths\CorSetup286.dll"
+
+ACTION: RegValue: "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\CorSetup286.dll", ""
+
