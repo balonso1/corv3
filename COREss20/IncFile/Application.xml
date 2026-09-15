@@ -1,0 +1,8 @@
+<config>
+  <map>
+    <application id="MiAplicacion" alias="AliasAplicacion" />
+    <resources>
+      <resource id="SQLSERVER" alias="SQLALIAS"/>
+    </resources>
+  </map>
+</config>
